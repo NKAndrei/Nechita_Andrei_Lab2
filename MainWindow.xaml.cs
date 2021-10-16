@@ -24,5 +24,11 @@ namespace Nechita_Andrei_Lab2
         {
             InitializeComponent();
         }
+
+        private void btnButon1_Click(object sender, RoutedEventArgs e)
+        {
+            //RoutedEventArgs base class that handles all events, all other event handling classes are child classes of this one
+            // sender is the button that actually calls this method
+        }
     }
 }
